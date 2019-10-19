@@ -11,8 +11,8 @@ None
 Role Variables
 --------------
 
-* `cmake_version`  *3.4.1* The version of CMake to fetch from [cmake.org](http://www.cmake.org)
-* `cmake_dest_dir`  */opt/kitware* Where to install the CMake tarball
+* `cmake_version`  *3.15.4* The version of CMake to fetch from [cmake.org](http://www.cmake.org)
+* `cmake_dest_dir`  */opt/cmake* Where to install the CMake tarball
 * `cmake_modify_path`  *True* Add CMake's PATH to .bashrc?
 
 Dependencies
@@ -27,7 +27,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: dockpack.base_cmake, cmake_version: 3.4.1 }
+         - { role: dockpack.base_cmake, cmake_version: 3.15.4 }
 
 License
 -------
