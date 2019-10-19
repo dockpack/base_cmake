@@ -1,8 +1,11 @@
 ---
 file:
-  /opt/kitware:
+  /opt/cmake:
     exists: true
     filetype: directory
-  /opt/kitware/cmake-3.14.2-Linux-x86_64:
+  /opt/kitware:
+    exists: true
+    filetype: symlink
+  /opt/kitware/cmake-3.15.4-Linux-x86_64:
     exists: true
     filetype: directory
