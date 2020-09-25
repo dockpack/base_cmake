@@ -42,6 +42,7 @@
     copy: false
     src: "{{ cmake_temp }}"
     dest: "{{ cmake_dest_dir }}"
+    mode: 0755
   become: true
   when: (not bin_cmake.stat.exists)
 
