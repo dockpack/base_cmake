@@ -5,6 +5,7 @@
   template:
     src: test_cmake.yml.j2
     dest: /root/test_cmake.yml
+    mode: 0644
 
 - name: Check to See if CMake root exists
   stat:
@@ -66,6 +67,7 @@
     state: link
     owner: root
     group: root
+    mode: 0755
   tags:
     - symlink
 
@@ -76,6 +78,7 @@
     state: link
     owner: root
     group: root
+    mode: 0755
   tags:
     - symlink
 
