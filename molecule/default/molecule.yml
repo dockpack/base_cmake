@@ -12,9 +12,6 @@ platforms:
   - name: base-cmake-centos7
     image: centos:7
     privileged: true
-  - name: base-cmake-centos6
-    image: centos:6
-    privileged: true
   - name: base-cmake-ubuntu
     image: ubuntu:xenial
     privileged: true
