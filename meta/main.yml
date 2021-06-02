@@ -1,5 +1,7 @@
 ---
 galaxy_info:
+  role_name: base_cmake
+  namespace: dockpack
   author: bbaassssiiee
   description: |
     Install the latest CMake binary tarball in /opt/kitware.
@@ -17,6 +19,7 @@ galaxy_info:
       versions:
         - 6
         - 7
+        - 8
     - name: Ubuntu
       versions:
         - xenial
