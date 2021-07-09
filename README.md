@@ -13,7 +13,9 @@ None
 Role Variables
 --------------
 
-* `cmake_version`  *3.20.5* The version of CMake to fetch from [cmake.org](http://www.cmake.org)
+
+* `cmake_version`  *3.20* The version of CMake to fetch from [cmake.org](http://www.cmake.org)
+* `cmake_patch_version`  *5* The minor version of CMake to fetch from [cmake.org](http://www.cmake.org)
 * `cmake_dest_dir`  */opt/cmake* Where to install the CMake tarball
 * `cmake_modify_path`  *True* Add CMake's PATH to .bashrc?
 
