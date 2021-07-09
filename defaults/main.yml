@@ -3,7 +3,7 @@
 cmake_pkg_state: false
 cmake_pkg_type: linux-x86_64
 cmake_version: '3.20'
-cmake_minor_version: 3
+cmake_minor_version: 5
 # yamllint disable-line rule:line-length
 cmake_temp: /tmp/cmake-{{ cmake_version }}.{{ cmake_minor_version }}-{{ cmake_pkg_type }}.tar.gz
 cmake_dest_dir: /opt/cmake
