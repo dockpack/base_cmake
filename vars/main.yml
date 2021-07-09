@@ -1,7 +1,7 @@
 ---
 # vars file for kfieldho.cmake
 # yamllint disable-line rule:line-length
-# cmake_url: "https://cmake.org/files/v{{ cmake_version }}/cmake-{{ cmake_version }}.{{ cmake_minor_version }}-{{ cmake_pkg_type }}.tar.gz"
+# cmake_url: "https://cmake.org/files/v{{ cmake_version }}/cmake-{{ cmake_version }}.{{ cmake_patch_version }}-{{ cmake_pkg_type }}.tar.gz"
 # yamllint disable-line rule:line-length
-cmake_url: "https://github.com/Kitware/CMake/releases/download/v{{ cmake_version }}.{{ cmake_minor_version }}/cmake-{{ cmake_version }}.{{ cmake_minor_version }}-{{ cmake_pkg_type }}.tar.gz"
+cmake_url: "https://github.com/Kitware/CMake/releases/download/v{{ cmake_version }}.{{ cmake_patch_version }}/cmake-{{ cmake_version }}.{{ cmake_patch_version }}-{{ cmake_pkg_type }}.tar.gz"
 cmake_modify_path: true
