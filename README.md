@@ -31,7 +31,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: dockpack.base_cmake, cmake_version: 3.20, cmake_patch_version: 5 }
+         - { role: dockpack.base_cmake, cmake_version: "3.20", cmake_patch_version: "5" }
 
 License
 -------
